@@ -50,7 +50,7 @@ const Login = () => {
             onChange={(e) => {
               setPasword(e.target.value);
             }}
-            type="password "
+            type="password"
             placeholder="Password"
           />
           <button onClick={user_auth} type="submit">
